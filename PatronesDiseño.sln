@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite\Composite.csproj", "{5BFD1673-A0F4-4330-B11C-B5A6213DB3AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{104AC5EA-E3DD-4D2E-88E8-8E32120E601B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{104AC5EA-E3DD-4D2E-88E8-8E32120E601B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{D576B0FB-9DC0-4C5B-91EE-564E3EDC47EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{88CE3312-2D35-4EF4-AF03-85B52F9B67DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{104AC5EA-E3DD-4D2E-88E8-8E32120E601B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{104AC5EA-E3DD-4D2E-88E8-8E32120E601B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{104AC5EA-E3DD-4D2E-88E8-8E32120E601B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D576B0FB-9DC0-4C5B-91EE-564E3EDC47EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D576B0FB-9DC0-4C5B-91EE-564E3EDC47EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D576B0FB-9DC0-4C5B-91EE-564E3EDC47EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D576B0FB-9DC0-4C5B-91EE-564E3EDC47EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88CE3312-2D35-4EF4-AF03-85B52F9B67DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88CE3312-2D35-4EF4-AF03-85B52F9B67DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88CE3312-2D35-4EF4-AF03-85B52F9B67DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88CE3312-2D35-4EF4-AF03-85B52F9B67DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
